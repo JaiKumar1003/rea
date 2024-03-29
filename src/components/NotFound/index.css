@@ -1,0 +1,77 @@
+/* Write your CSS here */
+
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.not-found-bg-dark {
+  background-color: #000000;
+}
+
+.not-found-bg-light {
+  background-color: #ffffff;
+}
+
+.horizontal-line {
+  border: 1px solid #dcdcdc;
+}
+
+.not-found-bottom-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.not-found-image {
+  width: 80%;
+}
+
+.dark-not-found-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.light-not-found-heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.dark-not-found-description {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  text-align: center;
+  max-width: 300px;
+}
+
+.light-not-found-description {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  text-align: center;
+  max-width: 300px;
+}
+
+@media screen and (min-width: 768px) {
+  .not-found-image {
+    width: 340px;
+  }
+
+  .dark-not-found-description {
+    max-width: 500px;
+  }
+
+  .light-not-found-description {
+    max-width: 500px;
+  }
+}

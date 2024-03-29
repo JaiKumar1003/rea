@@ -1,0 +1,70 @@
+/* Write your CSS here */
+
+.navbar-bg {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0px;
+  list-style-type: none;
+  height: 80px;
+  width: 100%;
+}
+
+.dark-navbar-bg {
+  background-color: #333333;
+}
+
+.light-navbar-bg {
+  background-color: #ffffff;
+}
+
+.website-logo {
+  height: 50px;
+  width: 50px;
+}
+
+.common-link {
+  text-decoration: none;
+}
+
+.navbar-home-about-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navbar-home-about {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 20px;
+}
+
+.dark-home-about {
+  color: #ffffff;
+}
+
+.light-home-about {
+  color: #1e293b;
+}
+
+.navbar-theme-button {
+  background-color: transparent;
+  border: none;
+}
+
+.navbar-theme {
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-bg {
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
